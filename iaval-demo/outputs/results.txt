@@ -1,0 +1,9 @@
+IAVAL demo results (synthetic survey, threshold 3.0 sigma)
+
+Pixel level (6 injected overdensities, 135 true pixels)
+  naive : {'flagged': 239, 'true_pos_pixels': 9, 'halo_pixels': 1, 'false_pos_pixels': 229, 'recall': 0.07}
+  aware : {'flagged': 234, 'true_pos_pixels': 135, 'halo_pixels': 99, 'false_pos_pixels': 0, 'recall': 1.0}
+
+Object level (250 injected anomalies in 150000 objects, threshold 4 sigma)
+  naive : {'flagged': 224, 'true_pos': 206, 'false_pos': 18, 'false_pos_in_shallowest_quartile': 16}
+  aware : {'flagged': 211, 'true_pos': 205, 'false_pos': 6, 'false_pos_in_shallowest_quartile': 4}
